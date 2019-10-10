@@ -1,6 +1,11 @@
 # Memory-Game-Detective-Boys-
-It is a game to test the player memory where the player has to match similar cards until there are no cards left to win the game.<br/>
-You are expected to improve your observation skills 🧐 by the end of this game.
+It is a game to test the player memory where the player has to match similar cards until there are no cards left to win the game.
+
+# Game Interface
+![picture](0.png) 
+
+# How to play pop-up Message
+![picture](1.png)
 
 # Instructions on how to play
 1- Click the cards to know the place of every character.<br/>
@@ -21,3 +26,12 @@ You are expected to improve your observation skills 🧐 by the end of this game
 5- Created a pop-up modal that tell the user how to play the game.<br/>
 6- Created a pop-up modal that show up when the player wins the game.<br/>
 7- Added the music theme of Detective Conan.
+
+# Valid Match
+![picture](3.png)
+
+# Unvalid Match
+![picture](2.png)
+
+# Congratulations pop-up
+![picture](4.png)
