@@ -1,0 +1,323 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"tex",
+				"text-align\tproperty"
+			],
+			[
+				"s",
+				"size\tproperty"
+			],
+			[
+				"font",
+				"font-family\tproperty"
+			],
+			[
+				"fonts",
+				"font-style\tproperty"
+			],
+			[
+				"fon",
+				"font-size\tproperty"
+			],
+			[
+				"te",
+				"text-align\tproperty"
+			],
+			[
+				"how",
+				"howto"
+			],
+			[
+				"al",
+				"vertical-align\tproperty"
+			],
+			[
+				"fun",
+				"function"
+			],
+			[
+				"i",
+				"inline\tdisplay"
+			],
+			[
+				"d",
+				"display\tproperty"
+			],
+			[
+				"v",
+				"visibility"
+			],
+			[
+				"ma",
+				"margin\tproperty"
+			],
+			[
+				"a",
+				"audio"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "index.html",
+			"settings":
+			{
+				"buffer_size": 5919,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+	],
+	"file_history":
+	[
+		"/C/Users/صدى/Desktop/Detective Boys Memory Game/css/app.css",
+		"/C/Users/صدى/Desktop/Detective Boys Memory Game/js/app.js",
+		"/C/Users/SDA/Desktop/Detective Boys Memory Game/css/app.css",
+		"/C/Users/SDA/Desktop/theme.ogg",
+		"/C/Users/SDA/Desktop/DB.sublime-workspace",
+		"/C/Users/SDA/Desktop/DetectiveBoys.sublime-project",
+		"/C/Users/SDA/Desktop/DetectiveBoys.sublime-workspace",
+		"/C/Users/SDA/Desktop/index.html",
+		"/C/Users/SDA/Desktop/Detective Boys Memory Game/img/03.png",
+		"/C/Users/SDA/Desktop/Detective Boys Memory Game/img/02.png",
+		"/C/Users/SDA/Desktop/Detective Boys Memory Game/img/04.png",
+		"/C/Users/SDA/Desktop/Detective Boys Memory Game/img/05.png",
+		"/C/Users/SDA/Desktop/Detective Boys Memory Game/img/06.png",
+		"/C/Users/SDA/Desktop/Detective Boys Memory Game/img/07.png",
+		"/C/Users/SDA/Desktop/Detective Boys Memory Game/img/08.png",
+		"/C/Users/SDA/Desktop/Detective Boys Memory Game/img/Agasa.png",
+		"/C/Users/SDA/Desktop/Detective Boys Memory Game/img/00.png",
+		"/C/Users/SDA/Desktop/Detective Boys Memory Game/img/01.png",
+		"/C/Users/SDA/Desktop/Detective Boys Memory Game/img/Detective Boys.jpg"
+	],
+	"find":
+	{
+		"height": 27.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"h1",
+			"ht p",
+			"h1",
+			"ht",
+			"h1",
+			"<p>",
+			"p",
+			"agasa",
+			"close",
+			"trig",
+			"triger",
+			"span",
+			"function",
+			"btn",
+			"span",
+			"0",
+			"modal0",
+			"modal",
+			"popup1",
+			"pop",
+			"click",
+			"onclick",
+			"type",
+			"open",
+			"show",
+			"card",
+			"fa fa-",
+			"size",
+			"h",
+			"heade",
+			"#",
+			"timer",
+			"#",
+			"unmatched",
+			"disable",
+			"disabled",
+			"match",
+			"card-deck",
+			"#card-deck",
+			"#card",
+			"#"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "index.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 5919,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								803,
+								803
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 27.0
+	},
+	"input":
+	{
+		"height": 0.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "index.sublime-project",
+	"replace":
+	{
+		"height": 50.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 150.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

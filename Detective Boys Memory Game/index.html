@@ -1,0 +1,133 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Memory Game</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet prefetch" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css">
+    <link rel="stylesheet prefetch" href="https://fonts.googleapis.com/css?family=Coda">
+    <link rel="stylesheet prefetch" href="https://fonts.googleapis.com/css?family=Gloria+Hallelujah|Permanent+Marker" >
+    <link rel="stylesheet" href="css/app.css">
+</head>
+<body>
+
+    <div class="container">
+
+<div class="top">
+        <header>
+            <h1>Detective Boys</h1>
+             <audio controls style="margin-left: 45px; ">
+        <source src="audio/theme.ogg" type="audio/ogg">
+    </audio>
+        </header>
+
+        <section class="score-panel">
+            <ul class="stars">
+                <li><i class="fa fa-star"></i></li>
+                <li><i class="fa fa-star"></i></li>
+                <li><i class="fa fa-star"></i></li>
+            </ul>
+
+            <span class="moves">0</span> Move(s)
+
+            <div class="timer">
+            </div>
+
+            <div class="restart" onclick=startGame()>
+                <i class="fa fa-repeat"></i>
+            </div>
+        </section>
+
+           <button class="trigger">How to Play</button>
+    <div class="agasa">
+        <div class="ht">
+            <span class="close-button">&times;</span>
+             <h1>Instructions</h1>
+     <img src="img/Agasa.png" alt="Agasa Hiroshi" style="margin-left: 153px;">
+   <h1>Here your task for this game </h1>
+   <h3>You have to match two similar cards till there is no cards left to win this game</h3>
+   <h2>You are expected to improve your observation skills 🧐</h2>
+ <h3>Try to finish the game in less than 18 moves to get 3 stars ⭐️⭐️⭐️🥇</h3>
+ <h3>Try to finish the game in less than 27 moves to get 2 stars ⭐️⭐️🥈</h3>
+ <h3>Try to finish the game in more than 26 moves to get 1 star ⭐️🥉</h3>
+ <h3 style="text-align: center;">GOOD LUCK!😆🤞</h2>
+ <h3>PS/ To enjoy the game press F11 to play in full screen</h3>
+ <h3>PS/ please play the audio before playing 🎼</h3>
+        </div>
+    </div>
+</div>
+        <ul class="deck" id="deckofcards">
+            <li class="card" type="diamond">
+               <img src="img/00.png" alt="Conan Edogawa" style="width: 100px; height: 100px;" id="detective"/>
+            </li>
+            <li class="card" type="plane">
+                <img src="img/01.png" alt="Mitsuhiko Tsuburaya" style="width: 100px; height: 100px;" id="detective"/>
+            </li>
+            <li class="card match" type="anchor">
+                <img src="img/02.png" alt="Genta Kojima" style="width: 100px; height: 100px;" id="detective"/>
+            </li>
+            <li class="card" type="bolt" >
+                <img src="img/06.png" alt="Heiji Hattori" style="width: 100px; height: 100px;" id="detective"/>
+            </li>
+            <li class="card" type="cube">
+                <img src="img/07.png" alt="kaito kid" style="width: 100px; height: 100px;" id="detective"/>
+
+            <li class="card match" type="anchor">
+                <img src="img/02.png" alt="Genta Kojima" style="width: 100px; height: 100px;" id="detective"/>
+            </li>
+            <li class="card" type="leaf">
+                <img src="img/03.png" alt="Ai Haibara & Ayumi Yoshida" style="width: 100px; height: 100px;" id="detective"/>
+            </li>
+            <li class="card" type="bicycle">
+               <img src="img/04.png" alt="Ran Mouri" style="width: 100px; height: 100px;" id="detective"/>
+            </li>
+            <li class="card" type="diamond">
+                <img src="img/00.png" alt="Conan Edogawa" style="width: 100px; height: 100px;" id="detective"/>
+            </li>
+            <li class="card" type="bomb">
+               <img src="img/05.png" alt="Sonoko Suzuki" style="width: 100px; height: 100px;" id="detective"/>
+            </li>
+            <li class="card" type="leaf">
+               <img src="img/03.png" alt="Ai Haibara & Ayumi Yoshida" style="width: 100px; height: 100px;" id="detective"/>
+            </li>
+            <li class="card" type="bomb">
+                <img src="img/05.png" alt="Sonoko Suzuki" style="width: 100px; height: 100px;" id="detective"/>
+            </li>
+            <li class="card open show" type="bolt">
+                <img src="img/06.png" alt="Heiji Hattori" style="width: 100px; height: 100px;" id="detective"/>
+            </li>
+            <li class="card" type="bicycle">
+              <img src="img/04.png" alt="Ran Mouri" style="width: 100px; height: 100px;" id="detective"/>
+            </li>
+            <li class="card" type="plane">
+                <img src="img/01.png" alt="Mitsuhiko Tsuburaya" style="width: 100px; height: 100px;" id="detective"/>
+            </li>
+            <li class="card" type="cube">
+               <img src="img/07.png" alt="Kaito Kid" style="width: 100px; height: 100px;" id="detective"/>
+            </li>
+        </ul>
+
+
+        <div id="popup1" class="overlay">
+            <div class="popup">
+                <div class="whitebackground">
+                   <h1>🎊Congratulations🎊</h1>
+                <a class="close" href=# >×</a>
+                <div class="content-1">
+                   <p> Congratulations you're a winner 🏆</p>
+                </div>
+                <div class="content-2">
+                    <p>You made <span id=finalMove> </span> moves </p>
+                    <p>in <span id=totalTime> </span> </p>
+                    <p>Rating:  <span id=starRating></span></p>
+                </div>
+                </div>
+                <button id="play-again"onclick="playAgain()">
+                    <a> Play again 😆</a>
+                </button>
+            </div>
+        </div>
+    <script src="js/app.js"></script>
+</body>
+</html>
